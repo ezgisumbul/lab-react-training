@@ -3,7 +3,14 @@ const selectRandom = (min, max) => {
 };
 
 const Random = (props) => {
-  return <h1>{selectRandom(props.min, props.max)}</h1>;
+  return (
+    <div className="random">
+      <h1>
+        Random value between {props.min} and {props.max} =&gt;
+        {selectRandom(props.min, props.max)}
+      </h1>
+    </div>
+  );
 };
 
 export default Random;

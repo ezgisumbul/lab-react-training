@@ -11,3 +11,102 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.id-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  margin: 4em;
+  padding: 1em;
+  gap: 0.5em;
+}
+
+#id-card-pp {
+  height: 10em;
+}
+
+.greetings {
+  border: 1px solid black;
+  width: 30em;
+  margin: 4em;
+  padding: 0.5em;
+}
+
+.random {
+  border: 1px solid black;
+  width: 40em;
+  margin: 4em;
+  padding: 0.5em;
+}
+
+.box-color {
+  border: 1px solid black;
+  width: 20em;
+  margin: 4em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.credit-card {
+  border: 1px solid black;
+  border-radius: 0.5em;
+  width: 20em;
+  height: 10em;
+  margin: 4em;
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+#card-number {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#card-details {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.credit-card img {
+  width: 3em;
+  margin-left: 16em;
+}
+
+.driver-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  width: 40em;
+  height: 5em;
+  margin: 4em;
+  padding: 2em;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 1em;
+  align-items: center;
+  background-color: rgb(55, 75, 194);
+  color: white;
+}
+
+.driver-card img {
+  margin-left: 9em;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+}
+
+.driver-card h2 {
+  margin: 0;
+}
+
+.like-button {
+  margin: 4em;
+}
+
+.clickable-img {
+  margin: 4em;
+}
